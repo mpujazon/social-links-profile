@@ -83,13 +83,39 @@ nav.links{
     background-color: hsl(0, 0%, 30%);
 }
 
+.button-link:active{
+    background-color: hsl(0, 0%, 60%);
+}
+
 .attribution{
     position: absolute;
     bottom: 0;
     margin: 10px;
 }
 
+.attribution { 
+    display: inline-block;
+    font-size: 11px; text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 6px;
+    border-radius: 10px;
+}
+.attribution a{
+    color: white;
+}
 
+.attribution a:hover{
+    color: hsl(0, 0%, 60%);
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@media ( width < 1080px){
+    .card{
+        width: 60%;
+    }
+}
+
+@media ( width <= 500px){
+    .card{
+        width: 90%;
+    }
+}

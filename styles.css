@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+    font-weight: 100 900;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 25%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image{
+    min-width: 80px;
+    width: 25%;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.profile-name{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.description{
+    font-size: 14px;
+    margin: 20px;
+}
+
+nav.links{
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-link{
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.button-link:hover{
+    background-color: hsl(0, 0%, 30%);
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

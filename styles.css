@@ -87,18 +87,16 @@ nav.links{
     background-color: hsl(0, 0%, 60%);
 }
 
-.attribution{
-    position: absolute;
-    bottom: 0;
-    margin: 10px;
-}
-
 .attribution { 
-    display: inline-block;
-    font-size: 11px; text-align: center;
-    background-color: hsl(0, 0%, 12%);
+    position: relative;
+    bottom: 0;
     padding: 6px;
+    margin: 20px;
     border-radius: 10px;
+    font-size: 11px; 
+    text-align: center;
+    display: inline-block;
+    background-color: hsl(0, 0%, 12%);
 }
 .attribution a{
     color: white;
